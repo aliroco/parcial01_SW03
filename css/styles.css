@@ -1,0 +1,227 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #2c363f;
+}
+
+/*Cuerpo login*/
+#login{
+  width: 450px; 
+  margin: auto; 
+  margin-top: 150px;
+  font-family: Arial;
+  padding: 10px 20px;
+}
+
+/*Estilos de las letras superior e inferior*/
+#login .header-title{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom:20px;
+  color: #1CAADC; /*Color Azul*/
+}
+
+#login .header-title span{
+  font-weight: 800;
+  color: white;
+}
+
+#login .footer-login{
+  color: #b4b8bc;
+  font-size: 15px;
+}
+
+#login .footer-login{
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+}
+
+#login .footer-login span{
+  color: gray;
+  font-size: 15px;
+}
+
+/*Formulario ingreso de estudante*/
+form{
+  margin: auto;
+  margin: 0 20px;
+}
+
+form .form-input{
+	border: none white;
+	outline: none;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	color: gray;
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+
+form .btn-submit{
+	width: 100%;
+	border: none;
+	outline: none;
+	background: #1CAADC;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0px;
+	cursor: pointer;
+}
+
+form .btn-submit:hover{
+	background: #43C9F8;
+}
+
+/*Finalizacion pagina principal*/
+
+/*Inicio de la pagina visualizacion de las materias por estudaintes*/
+/*creacion estilos de los divs*/
+
+.header-pensum{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Arial;
+}
+
+.header-pensum #title-pensum{
+  width: 400px;
+  padding: 5px 10px;
+	background-color: white;
+  margin: auto;
+	color: #454545;
+  font-size: 12px;
+}
+
+#codigo_estudiante{
+  margin: auto;
+  padding: 5px;
+	margin-top: 5px;
+	width: 200px;
+	background-color: rgb(226,227,226,.5);
+}
+
+#codigo_estudiante h2{
+  color: white;
+  font-size: 15px;
+  font-weight: 200px;
+}
+
+#codigo_estudiante img{
+  float: left;
+  margin-left: 20px;
+}
+#contenedor{
+  display: inline-block;
+  position: relative;
+  left: 10%;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: #2c363f;
+	overflow: hidden;
+}
+
+#contenedor h1{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.semestre{
+  margin: auto;
+  text-align: center;
+  margin: 10px 10px;
+	width: 100%;
+	max-width: 150px;
+	background-color: #2c363f;
+	color: white;
+	float: left;
+	display: none;
+}
+
+.materia{
+  padding: 10px 5px;
+  margin: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width:150px ;
+	background-color: #46CA4B;
+	display: none;
+	border-radius: 3px; 
+  font-family: Arial;
+}
+
+.materia_inactiva{
+  background-color: #ddd !important;
+  color: black !important;
+  text-decoration:line-through !important;
+}
+
+.mat_nombre{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.mat_credito{
+  font-size: 15px;
+}
+
+.mat_codigo{
+  font-size: 10px;
+}
+
+footer{
+  margin-bottom: 30px;
+  clear: both;
+}
+
+.contenedor-footer{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+footer .button-footer{
+  width: 160px;
+  border: none;
+  outline: none;
+  background: #1CAADC;
+  font-size: 16px;
+  color: white;
+  padding: 15px 0px;
+  cursor: pointer;
+  margin-left: 10px; 
+}
+
+footer .button-footer:hover{
+  background: #43C9F8;
+}
+
+footer #instrucciones{
+  color: white;
+  font-family: arial;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 25px; 
+  display: none;
+  text-align: center;
+}
+
+footer .creditos-footer{
+  text-align: center;
+  color: gray;
+  font-family: arial;
+  font-size: 10px;
+}

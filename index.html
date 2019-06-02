@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<script type="text/javascript">
+		/*Validacion de que el codigo sea numeros*/
+		function validarLogin(formulario){
+			var numero = formulario.codigo.value;
+			if (!/^([0-9])*$/.test(numero)){
+		    	alert("Codigo Invalido - Solo son permitidos numeros");
+		    	return false;
+		    }
+		    return true;
+		}
+	</script>>
+	<title>Control de Pensum - Ingeneria de Sistemas</title>
+</head>
+<body>
+	<header></header>
+	<section>
+		<div id="login">
+			<h1 class="header-title"><span>CONTROL</span>PENSUM</h1>
+				<form autocomplete="off" action="materias.php" method="post" onsubmit="return validarLogin(this)">
+					 <input type="text" name="codigo" id="codigo" class="form-input" placeholder="Codigo Estudiante">
+				 	<input type="submit" class="btn-submit" id="enviar" value="Ingresar">	 
+				</form>
+			<h2 class="footer-login"><span>Ingeniería de Sistemas -</span>Universidad del Cauca</h2>
+		</div>
+	</section>
+</body>
+</html>
